@@ -115,9 +115,22 @@ What I learned:
 4. Build a React version to learn component and state hooks.
 
 ---
+## 🌐 Live Demo
 
-## ▶️ How to Run
+👉 https://easy-habit-tracker-1.netlify.app/
 
+Try it directly in your browser — no setup needed.
+
+---
+
+## ▶️ How to Run Locally
+
+- Clone the repository
+- Navigate to the project folder:
+
+```bash
+cd projects/01-habit-tracker
+```
 - Open `index.html` in a browser (double-click or serve with a static server).
 
 ---
