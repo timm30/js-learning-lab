@@ -8,11 +8,11 @@ This repository documents my journey of learning **JavaScript** by building smal
 
 ## 📦 Projects
 
-| Project | Description | Tech | Links |
-|--------|------------|------|------|
-| 🟢 Habit Tracker | Track daily habits with a simple UI | HTML / CSS / JS | [GitHub](https://github.com/timm30/js-learning-lab/tree/main/projects/01-habit-tracker) • [Live](https://easy-habit-tracker-1.netlify.app/) |
+| Project           | Description                                                       | Tech            | Links                                                                                                                                                     |
+| ----------------- | ----------------------------------------------------------------- | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🟢 Habit Tracker  | Track daily habits with a simple UI                               | HTML / CSS / JS | [GitHub](https://github.com/timm30/js-learning-lab/tree/main/projects/01-habit-tracker) • [Live](https://easy-habit-tracker-1.netlify.app/)               |
 | 🟡 Scoreboard App | Real-time score tracking with leader highlight and glow animation | HTML / CSS / JS | [GitHub](https://github.com/timm30/js-learning-lab/tree/main/projects/02-basketball-scoreboard) • [Live](https://easy-basketball-scoreboard.netlify.app/) |
-| ⚫ Blackjack Game | Simple card game built with JavaScript | JS | Coming soon |
+| ⚫ Blackjack Game | Simple card game built with JavaScript                            | JS              | Coming soon                                                                                                                                               |
 
 👉 Each project contains its own detailed README with implementation details and learnings.
 
@@ -38,9 +38,9 @@ This repository documents my journey of learning **JavaScript** by building smal
 
 ## 📈 Progress
 
-- [x] Habit Tracker  
-- [x] Scoreboard App  
-- [ ] Blackjack Game  
+- [x] Habit Tracker
+- [x] Scoreboard App
+- [ ] Blackjack Game
 - [ ] More projects...
 
 ---
@@ -59,6 +59,7 @@ This repository documents my journey of learning **JavaScript** by building smal
 This repository is part of my transition into building real applications.
 
 Next steps:
+
 - ⚛️ React
 - 🤖 AI-powered tools
 - 📊 Data-related applications

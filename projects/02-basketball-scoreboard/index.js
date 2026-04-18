@@ -8,36 +8,35 @@ let homeBoardEl = document.getElementById('home-board')
 let guestBoardEl = document.getElementById('guest-board')
 
 function addHome(score) {
-    homeScore += score
-    homeScoreEl.textContent = homeScore
-    updateLeader()
+  homeScore += score
+  homeScoreEl.textContent = homeScore
+  updateLeader()
 }
 
 function addGuest(score) {
-    guestScore += score
-    guestScoreEl.textContent = guestScore
-    updateLeader()
+  guestScore += score
+  guestScoreEl.textContent = guestScore
+  updateLeader()
 }
 
 function resetScore() {
-    homeScore = 0
-    guestScore = 0
+  homeScore = 0
+  guestScore = 0
 
-    homeScoreEl.textContent = homeScore
-    guestScoreEl.textContent = guestScore
-    updateLeader()
+  homeScoreEl.textContent = homeScore
+  guestScoreEl.textContent = guestScore
+  updateLeader()
 }
 
 function updateLeader() {
-    if (homeScore > guestScore) {
-        homeBoardEl.classList.add('leading')
-        guestBoardEl.classList.remove('leading')
-    } else if 
-    (guestScore > homeScore) {
-        homeBoardEl.classList.remove('leading')
-        guestBoardEl.classList.add('leading')
-    } else {
-        homeBoardEl.classList.remove('leading')
-        guestBoardEl.classList.remove('leading')
-    }
+  if (homeScore > guestScore) {
+    homeBoardEl.classList.add('leading')
+    guestBoardEl.classList.remove('leading')
+  } else if (guestScore > homeScore) {
+    homeBoardEl.classList.remove('leading')
+    guestBoardEl.classList.add('leading')
+  } else {
+    homeBoardEl.classList.remove('leading')
+    guestBoardEl.classList.remove('leading')
+  }
 }

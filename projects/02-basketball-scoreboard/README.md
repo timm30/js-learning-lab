@@ -48,7 +48,7 @@ Score (state) → Logic (JS) → Visual Update (DOM)
 ### 3️⃣ Event-Driven Programming
 
 ```html
-<button onclick="addHome(1)">
+<button onclick="addHome(1)"></button>
 ```
 
 - User actions trigger functions
@@ -60,7 +60,7 @@ Score (state) → Logic (JS) → Visual Update (DOM)
 
 ```js
 if (homeScore > guestScore) {
-    homeBoard.classList.add("leading")
+  homeBoard.classList.add('leading')
 }
 ```
 
@@ -87,6 +87,7 @@ JS   → Controls behavior (when things change)
 ```
 
 ---
+
 ## 🌐 Live Demo
 
 👉 https://easy-basketball-scoreboard.netlify.app/
@@ -97,12 +98,13 @@ Try it directly in your browser — no setup needed.
 
 ## 🚀 How to Run
 
-1. Clone or download the repo  
-2. Open `index.html` in your browser  
+1. Clone or download the repo
+2. Open `index.html` in your browser
 
 That's it 🎉
 
 ---
+
 ## 📁 Project Structure
 
 ```
@@ -148,4 +150,3 @@ Built as part of learning:
 - JavaScript fundamentals
 - DOM manipulation
 - UI state synchronization
-
