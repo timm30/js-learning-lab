@@ -9,3 +9,22 @@ const characters = [
   '_', '-', '+', '=', '{', '[', '}', ']', ',', '|', ':', ';',
   '<', '>', '.', '?', '/',
 ]
+
+function generatePassword(length = 12) {
+    let password = ""
+
+    for (let i=0; i<length; i++) {
+        password += characters[Math.floor(Math.random() * characters.length)]
+    }
+
+    return password;
+}
+
+
+const generateButton = document.getElementById('generate-ps-btn')
+
+generateButton.addEventListener('click', function() {
+    document.getElementById('password-one').textContent = generatePassword()
+    document.getElementById('password-two').textContent = generatePassword()
+})
+
