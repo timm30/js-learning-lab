@@ -14,31 +14,30 @@ let exerciseEl = document.getElementById('exercise-count')
 let logEl = document.getElementById('log-el')
 
 function incrementWater() {
-    water += 1
-    waterEl.textContent = water
+  water += 1
+  waterEl.textContent = water
 }
 
 function incrementStudy() {
-    study += 1
-    studyEl.textContent = study
+  study += 1
+  studyEl.textContent = study
 }
 
 function incrementExercise() {
-    exercise += 1
-    exerciseEl.textContent = exercise
+  exercise += 1
+  exerciseEl.textContent = exercise
 }
 
 function save() {
-    let log = `💧 ${water} | 📚 ${study} | 💪 ${exercise} - `
-    logEl.textContent += log
-    
-    //reset
-    water = 0
-    study = 0
-    exercise = 0
-    
-    waterEl.textContent = 0
-    studyEl.textContent = 0
-    exerciseEl.textContent = 0
-    
+  let log = `💧 ${water} | 📚 ${study} | 💪 ${exercise} - `
+  logEl.textContent += log
+
+  //reset
+  water = 0
+  study = 0
+  exercise = 0
+
+  waterEl.textContent = 0
+  studyEl.textContent = 0
+  exerciseEl.textContent = 0
 }
